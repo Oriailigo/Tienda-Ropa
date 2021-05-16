@@ -1,0 +1,129 @@
+:root {
+    --primario: #f700d6;
+    --primarioOscuro: #94037c;
+    --secundario: #fbff15;
+    --secundarioOscuro: rgb(233, 287, 2);
+    --blanco: #ffffff;
+    --negro: #000000;
+    --fuente: 'Staatliches', cursive;
+}
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*para que el rem sea 10 (hice la conversion)*/
+}
+
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    /*interlineado para la base de la fuente*/
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+
+
+/*los enlaces no poseen la raya*/
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuente);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*header*/
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0 3rem 0;
+}
+
+
+/*Navegacion*/
+
+.navegacion {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    /*colocar horizontalmente*/
+    display: flex;
+    justify-content: center;
+    /*separar los elementos que esten dentro de flex*/
+    gap: 2rem;
+}
+
+.navegacion__tienda {
+    color: var(--blanco);
+    font-family: var(--fuente);
+    font-size: 2rem;
+}
+
+.navegacion__tienda--activo,
+.navegacion__tienda:hover {
+    color: var(--secundario);
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: var(--primarioOscuro);
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.footer__texto {
+    text-align: center;
+    font-family: var(--fuente);
+    font-size: 2.2rem;
+}
+
+
+/*MAIN*/
+
+.main {}
