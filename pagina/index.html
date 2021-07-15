@@ -1,0 +1,273 @@
+<!--
+    Nota de atajo:
+    ! =para crear completo el cuerpo de la pagina
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hoja de estilos Nota: las librerias deben escribirse primero-->
+    <!--Fuentes de texto: google fonts-->
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Mis css-->
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Esto es lo que ve el navegador-->
+    <title>Diseñador Freelancers
+    </title>
+
+</head>
+
+<body>
+    <!-- Esto es lo que ve el usuario-->
+    <!-- La colocacion de los h1 hasta h6 es para que el navegador sepa que apartir del h1 es el mas importante-->
+    <!-- No repites H1, los demas si se pueden repetir-->
+    <header>
+
+    </header>
+    <!--Colocar el menu de navegacion donde dentro de la
+    etiqueta a se coloca el atributo de href-->
+    <div class="nav-background">
+        <nav class="navegacion-principal contenedor">
+            <!--Para no hacer referencia a nada coloc href="#"-->
+            <a href="/index.html">Inicio</a>
+            <a href="#">bebe niña</a>
+            <a href="#">bebe niño</a>
+            <a href="#">Contacto</a>
+            <a href="quienes.html">Quienes somos</a>
+
+            <!-- <img src="/image/hero.jpg"> 
+        Es mejor tener una imagen como fondo para poder colocar texto encima
+        -->
+        </nav>
+    </div>
+    <!--Nuevo contenido descripcion de lo que vas a ver en la pagina el objetivo-->
+    <section class="hero">
+        <div class="contenido-hero titulo">
+            <h2> Creaciones Buho <span> boutique infantil </span>
+
+            </h2>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="84" height="84" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+
+
+            <p2>Villa Manzano</p2>
+
+            <a class="boton" href="#">Contactar</a>
+
+
+        </div>
+    </section>
+
+    <!--El main (el main actua como un section) es mas importante que el section por eso no se 
+coloca un section al h2. Nota: Siempre que se cambie de nuemro de h se
+coloca una section de por medio-->
+    <!--Nota: Solo hay un unico main-->
+    <!--Hay varios section para cada h-->
+    <main class="contenedor sombra">
+        <h2>¡Nuevas colecciones!</h2>
+
+
+        <!--Para el h3 si se necesita un section-->
+        <section>
+
+            <h3>Ventas online </h3>
+            <p> Descubrí ropas de diseño para tu pichoncito. Esta es una nueva tienda online dedicada a los más pequeños de la casa. En nuestro stock tenemos un amplio catálogo de ropa de diseño exclusivo de primera calidad para niñas, niños y bebes, desde
+                la talla 0 a la talla 12. Espero que sea de su agrado.
+            </p>
+        </section>
+
+        <!-- Imagenes de los diseños-->
+        <h3>Mis diseños</h3>
+
+        <section>
+
+
+
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <img src="image/marron.png" alt="pantalon">
+                    <div class="container">
+                        <h4><b>Camperita</b></h4>
+                        <p>Tejido a crochet, hilo hipoalargenico </p>
+                    </div>
+                </div>
+                <div class="campo">
+                    <img src="image/rosa.png" alt="pantalon">
+                    <div class="container">
+                        <h4><b>Camperita</b></h4>
+                        <p>Tejido a crochet, hilo hipoalargenico </p>
+                    </div>
+                </div>
+                <div class="campo">
+                    <img src="image/piel.png" alt="pantalon">
+                    <div class="container">
+                        <h4><b>Vestidito</b></h4>
+                        <p>Tejido a crochet, hilo hipoalargenico </p>
+                    </div>
+                </div>
+                <div class="campo">
+                    <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/969/202/products/9x3a35791-db695590c2d1d4e10c15924573502232-640-0.jpg" alt="pantalon">
+                    <div class="container">
+                        <h4><b>Conjuntito</b></h4>
+                        <p>Ropita tejida de lana- 2 piezas rosa</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <h3>Lo más vendido</h3>
+            <section>
+
+
+
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+
+                        <img role="presentation" alt="conjunto" src="https://d3ugyf2ht6aenh.cloudfront.net/stores/180/569/products/osito-gris_021-bda2e9909190d277ca16212573555230-1024-1024.jpg">
+
+                        <div class="container ">
+                            <h4><b>Enterito osito </b></h4>
+                            <p> poliéster, parte exterior de franela cálida. Tejido agradable al tacto, suave y cómodo </p>
+                        </div>
+                    </div>
+                    <div class="campo ">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_623973-MLA43735380028_102020-F.webp" alt="pantalon ">
+                        <div class="container ">
+                            <h4><b>Set De Nacimiento Algodón </b></h4>
+                            <p> Ajuar Nacimiento. Anchus </p>
+                        </div>
+                    </div>
+                    <div class="campo ">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/61E7CRrZEHL._AC_UX679_.jpg " alt="pantalon ">
+                        <div class="container ">
+                            <h4><b>Enterito osito claro </b></h4>
+                            <p> poliéster, parte exterior de franela cálida. Tejido agradable al tacto, suave y cómodo </p>
+
+                        </div>
+                    </div>
+                    <div class="campo ">
+                        <img src="image/rosa.png " alt="pantalon ">
+                        <div class="container ">
+                            <h4><b>Camperita</b></h4>
+                            <p>Tejido a crochet, hilo hipoalargenico </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <h2>Contacto</h2>
+        <section class="formulario ">
+
+            <form>
+                <fieldset>
+                    <legend>
+                        Contactame llenando todos los campos.
+                    </legend>
+                    <!-- contenedor para los campos-->
+                    <div class="contenedor-camposCO ">
+                        <div class="campoCO ">
+                            <label>
+                            Nombre
+                        </label>
+                            <input class="cambio-input " type="text " placeholder="Escribe tu nombre ">
+                        </div>
+                        <div class="campoCO ">
+                            <label>
+                            Teléfono
+                        </label>
+                            <input class="cambio-input " type="tel " placeholder="Escribe tu teléfono ">
+                        </div>
+                        <div class="campoCO ">
+                            <label>
+                            Correo 
+                        </label>
+                            <input class="cambio-input " type="email " placeholder="Escribe tu correo ">
+                        </div>
+                        <div class="campoCO ">
+                            <label>
+                            Mensaje 
+                        </label>
+                            <textarea>
+        
+                        </textarea>
+
+                        </div>
+
+                    </div>
+                    <div class="campo derecha flex ">
+                        <input class="cambio-input boton enviar " type="submit " value="Enviar ">
+
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!--Para contacto se agrega un formulacion entonces estara fuera del main
+Y se le agregara una section porque es un h2-->
+    <!--Colocar un gvg vectorial-->
+
+    |
+
+    <footer>
+        <!-- <div class="footer bg-dark ">
+            <div class="row ">
+
+
+                <div class="col-sm-4 d-flex flex-column align-items-center ">
+                    <a href="www.facebook.com ">Facebook</a>
+                    <a href="www.twitter.com ">Twitter</a>
+                    <a href="www.google.com ">google</a>
+                    <a href="www.instagram.com ">instagram</a>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-center ">
+                    <address>
+                             
+                            <p> <span class="oi oi-home footer-address-icon "></span> Tucuman entre alen y sarmiento N° 432</p>   
+                            <p> <span class="oi oi-phone footer-address-icon "></span> +292054743</p>                
+                            <p> <span class="oi oi-inbox footer-address-icon "></span> Creaciones Buho@gmail.com </p>
+
+                        </address>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-center ">
+
+                    <a href="./quienes.html ">Nosotros</a>
+                    <a href="# ">Precios</a>
+                    <a href="# ">Terminos y condiciones</a>
+                    <a href="# ">Contacto</a>
+                </div>
+            </div>
+        </div> -->
+        <div class="container-footer ">
+            <div class="copyright ">
+                @2021 Todos los derechos reservados | <a href=" ">Creaciones Buho</a>
+
+            </div>
+            <div class="information ">
+                <a href=" " style="text-decoration: none; "> Informacion de la Compañia | </a>
+                <a href=" " style="text-decoration: none; "> Privacion y Politica | </a>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
