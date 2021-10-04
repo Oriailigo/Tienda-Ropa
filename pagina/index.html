@@ -183,36 +183,36 @@ coloca una section de por medio-->
                     <!-- contenedor para los campos-->
                     <div class="contenedor-camposCO ">
                         <div class="campoCO ">
-                            <label>
+                            <label for="nombre">
                             Nombre
                         </label>
-                            <input class="cambio-input " type="text " placeholder="Escribe tu nombre ">
+                            <input id="nombre" class="cambio-input " type="text " placeholder="Escribe tu nombre ">
                         </div>
                         <div class="campoCO ">
-                            <label>
+                            <label for="tele">
                             Teléfono
                         </label>
-                            <input class="cambio-input " type="tel " placeholder="Escribe tu teléfono ">
+                            <input id="tele" class="cambio-input " type="tel " placeholder="Escribe tu teléfono ">
                         </div>
                         <div class="campoCO ">
-                            <label>
+                            <label for="correo">
                             Correo 
                         </label>
-                            <input class="cambio-input " type="email " placeholder="Escribe tu correo ">
+                            <input id="correo" class="cambio-input " type="email " placeholder="Escribe tu correo ">
                         </div>
                         <div class="campoCO ">
-                            <label>
+                            <label for="men">
                             Mensaje 
                         </label>
-                            <textarea>
+                            <textarea id="men">
         
                         </textarea>
 
                         </div>
 
                     </div>
-                    <div class="campo derecha flex ">
-                        <input class="cambio-input boton enviar " type="submit " value="Enviar ">
+                    <div class="campo derecha flex" aria-label="contenedor_boton">
+                        <input class="cambio-input boton enviar " aria-describedby="contenedor_boton" type="submit " value="Enviar ">
 
                     </div>
                 </fieldset>
